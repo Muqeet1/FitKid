@@ -1,0 +1,72 @@
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:15px;
+	font-stretch: normal;
+	font-weight:5;
+    margin:1px;
+    padding:2px;
+    text-transform:uppercase;
+	background-color: #42f45f;
+}
+img {
+    display: block;
+    margin: auto;
+     max-width: 100%;
+    height: auto;
+}
+.app {
+	position: absolute;
+	display:block;
+    width: 200px;
+    padding: 25px;
+	text-align: center;
+	left: 800px;
+}
+h1 {
+    font-size:50px;
+    font-weight:100;
+	font-family: Helvetica,sans-serif;
+	margin:0px;
+    padding:10px;
+    text-align:center;
+	font-stretch: extra-condensed;
+	background-color: gray;
+	color: white;
+	text-shadow: 4px 4px green;
+}
+h2 {
+    font-size:35px;
+    font-weight:50;
+	font-family: Helvetica,sans-serif;
+	margin:2px;
+    padding:8px;
+    text-align:center;
+	font-stretch: extra-condensed;
+	color: white;
+	text-shadow: 4px 4px green;
+}
+
+input[type=button]
+ {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:#2133d3;
+  border: 2px black;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
